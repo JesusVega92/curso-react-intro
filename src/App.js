@@ -17,7 +17,6 @@ function App() {
     <>
       <TodoCounter completed={16} total={25} />
       <TodoSearch />
-
       <TodoList>
         {defaultTodos.map(todo => (
           <TodoItem
